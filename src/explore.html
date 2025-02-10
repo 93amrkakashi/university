@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <title>University Website</title>
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+  </head>
+  <body>
+    <header class="bg-white shadow-md py-4 flex justify-center items-center">
+      <div class="w-[85%] mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-2">
+          <img src="./images/logo.png" alt="Logo" class="size-20" />
+        </div>
+        <nav class="space-x-6 hidden md:flex">
+          <a
+            href="#"
+            class="text-gray-700 font-bold hover:text-orange-400 duration-300 transition-all ease-in-out"
+            >About Us</a
+          >
+          <a
+            href="#"
+            class="text-gray-700 font-bold hover:text-orange-400 duration-300 transition-all ease-in-out"
+            >Contact Us</a
+          >
+          <div class="relative">
+            <button id="dropdownButton" class="text-gray-700 font-bold hover:text-orange-400 duration-300 flex items-center gap-1">
+                <span>Colleges</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <ul id="dropdownMenu" class="absolute z-[50] left-0 mt-2 w-fit p-2 bg-white shadow-md rounded-lg hidden">
+                <li><a href="#" class="block px-4 py-2 hover:text-orange-400 hover:scale-95 origin-right text-lg duration-500 transition-all ease-in-out whitespace-nowrap ">Faculty of Science</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:text-orange-400 hover:scale-95 origin-right text-lg duration-500 transition-all ease-in-out whitespace-nowrap ">Faculty of Engineering</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:text-orange-400 hover:scale-95 origin-right text-lg duration-500 transition-all ease-in-out whitespace-nowrap ">Faculty of Medicine</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:text-orange-400 hover:scale-95 origin-right text-lg duration-500 transition-all ease-in-out whitespace-nowrap ">Faculty of Business</a></li>
+            </ul>
+        </div>
+          <a
+            href="#"
+            class="text-gray-700 font-bold hover:text-orange-400 duration-300 transition-all ease-in-out"
+            >Academic Guidance</a
+          >
+          <a
+            href="#"
+            class="text-gray-700 font-bold hover:text-orange-400 duration-300 transition-all ease-in-out"
+            >LMS</a
+          >
+        </nav>
+        <div class="flex items-center jastify-around gap-6">
+          <a
+            href="#"
+            class="text-gray-700 font-bold hover:text-orange-400 duration-300 transition-all ease-in-out !kufi"
+            >العربية</a
+          >
+          <button
+            class="bg-orange-400/80 text-white px-8 py-2 rounded-md hover:bg-orange-400/80"
+          >
+            Login
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="py-10  w-[95%] md:w-[85%] mx-auto">
+      <div class="relative w-full h-[60vh] rounded-2xl overflow-hidden">
+        <div class="absolute inset-0 bg-black/50 w-full h-full z-[10]">
+          <div class="w-full h-full flex justify-start items-center p-8 px-12">
+            <h2
+              class="font-medium leading-18 text-4xl md:text-6xl w-1/2 text-white"
+            >
+              explore our products, find the perfect products for your needs
+            </h2>
+          </div>
+        </div>
+        <img
+          src="./images/explore.png"
+          class="w-full h-full object-cover object-center"
+          alt=""
+        />
+      </div>
+      <div class="grid md:grid-cols-3 gap-6 mt-16">
+        <div class="bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all duration-500 ease-in-out ">
+          <img
+            src="./images/11.png"
+            alt="Computers and Information"
+            class="w-full h-56 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-blue-800">
+              Faculty Of Computers And Information
+            </h3>
+            <p class="text-gray-600 mt-2 text-sm">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry
+            </p>
+            <a
+              href="#"
+              class="flex items-center gap-2 text-black font-semibold mt-4 hover:underline"
+            >
+              Learn More About The Faculty
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all duration-500 ease-in-out ">
+          <img
+            src="./images/12.png"
+            alt="Administrative Sciences"
+            class="w-full h-56 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-blue-800">
+              Faculty Of Administrative Sciences
+            </h3>
+            <p class="text-gray-600 mt-2 text-sm">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry
+            </p>
+            <a
+              href="#"
+              class="flex items-center gap-2 text-black font-semibold mt-4 hover:underline"
+            >
+              Learn More About The Faculty
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all duration-500 ease-in-out ">
+          <img
+            src="./images/13.png"
+            alt="Engineering"
+            class="w-full h-56 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-blue-800">
+              Faculty Of Engineering
+            </h3>
+            <p class="text-gray-600 mt-2 text-sm">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry
+            </p>
+            <a
+              href="#"
+              class="flex items-center gap-2 text-black font-semibold mt-4 hover:underline"
+            >
+              Learn More About The Faculty
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all duration-500 ease-in-out ">
+          <img
+            src="./images/14.png"
+            alt="Engineering"
+            class="w-full h-56 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-blue-800">
+              Faculty Of Engineering
+            </h3>
+            <p class="text-gray-600 mt-2 text-sm">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry
+            </p>
+            <a
+              href="#"
+              class="flex items-center gap-2 text-black font-semibold mt-4 hover:underline"
+            >
+              Learn More About The Faculty
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all duration-500 ease-in-out ">
+          <img
+            src="./images/15.png"
+            alt="Engineering"
+            class="w-full h-56 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-blue-800">
+              Faculty Of Engineering
+            </h3>
+            <p class="text-gray-600 mt-2 text-sm">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry
+            </p>
+            <a
+              href="#"
+              class="flex items-center gap-2 text-black font-semibold mt-4 hover:underline"
+            >
+              Learn More About The Faculty
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all duration-500 ease-in-out ">
+          <img
+            src="./images/16.png"
+            alt="Engineering"
+            class="w-full h-56 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-blue-800">
+              Faculty Of Engineering
+            </h3>
+            <p class="text-gray-600 mt-2 text-sm">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry
+            </p>
+            <a
+              href="#"
+              class="flex items-center gap-2 text-black font-semibold mt-4 hover:underline"
+            >
+              Learn More About The Faculty
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-blue-800 text-white py-6">
+      <div
+        class="w-[85%] mx-auto flex flex-wrap justify-between items-center "
+      >
+        <div class="flex flex-col items-center">
+          <img src="./images/logowhite.png" alt="Logo" class="w-32 mb-4" />
+          <div class="flex space-x-4">
+            <a href="#" class="text-white text-xl"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="#" class="text-white text-xl"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="text-white text-xl"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" class="text-white text-xl"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-12">
+          <div class="space-y-3">
+            <p><a href="#" class="text-sm">About Us</a></p>
+            <p><a href="#" class="text-sm">Contact Us</a></p>
+            <p><a href="#" class="text-sm">Support</a></p>
+            <p>
+              <a href="#" class="text-sm"
+                >Learning Management <br />
+                System</a
+              >
+            </p>
+            <p><a href="#" class="text-sm">Academic Guidance</a></p>
+          </div>
+          <div class="space-y-3">
+            <p><a href="#" class="text-sm">Cookie Policy</a></p>
+            <p><a href="#" class="text-sm">Privacy Policy</a></p>
+            <p><a href="#" class="text-sm">Terms Of Service</a></p>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-start items-start gap-4">
+          <p class="mb-2">Download The App</p>
+          <div class="flex space-x-2">
+            <a href="#"
+              ><img
+                src="./images/android.png"
+                alt="Google Play"
+                class="w-32 h-10"
+            /></a>
+            <a href="#"
+              ><img src="./images/apple.png" alt="App Store" class="w-32 h-10"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+
+  </body>
+</html>

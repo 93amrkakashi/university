@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <title>University Website</title>
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+  </head>
+  <body>
+    <header class="bg-white shadow-md py-4 flex justify-center items-center">
+      <div class="w-[85%] mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-2">
+          <img src="./images/logo.png" alt="Logo" class="size-20" />
+        </div>
+        <nav class="space-x-6 hidden md:flex">
+          <a
+            href="#"
+            class="text-gray-700 font-bold hover:text-orange-400 duration-300 transition-all ease-in-out"
+            >About Us</a
+          >
+          <a
+            href="#"
+            class="text-gray-700 font-bold hover:text-orange-400 duration-300 transition-all ease-in-out"
+            >Contact Us</a
+          >
+          <div class="relative">
+            <button id="dropdownButton" class="text-gray-700 font-bold hover:text-orange-400 duration-300 flex items-center gap-1">
+                <span>Colleges</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <ul id="dropdownMenu" class="absolute z-[50] left-0 mt-2 w-fit p-2 bg-white shadow-md rounded-lg hidden">
+                <li><a href="#" class="block px-4 py-2 hover:text-orange-400 hover:scale-95 origin-right text-lg duration-500 transition-all ease-in-out whitespace-nowrap ">Faculty of Science</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:text-orange-400 hover:scale-95 origin-right text-lg duration-500 transition-all ease-in-out whitespace-nowrap ">Faculty of Engineering</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:text-orange-400 hover:scale-95 origin-right text-lg duration-500 transition-all ease-in-out whitespace-nowrap ">Faculty of Medicine</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:text-orange-400 hover:scale-95 origin-right text-lg duration-500 transition-all ease-in-out whitespace-nowrap ">Faculty of Business</a></li>
+            </ul>
+        </div>
+          <a
+            href="#"
+            class="text-gray-700 font-bold hover:text-orange-400 duration-300 transition-all ease-in-out"
+            >Academic Guidance</a
+          >
+          <a
+            href="#"
+            class="text-gray-700 font-bold hover:text-orange-400 duration-300 transition-all ease-in-out"
+            >LMS</a
+          >
+        </nav>
+        <div class="flex items-center jastify-around gap-6">
+          <a
+            href="#"
+            class="text-gray-700 font-bold hover:text-orange-400 duration-300 transition-all ease-in-out !kufi"
+            >العربية</a
+          >
+          <button
+            class="bg-orange-400/80 text-white px-8 py-2 rounded-md hover:bg-orange-400/80"
+          >
+            Login
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="py-10 px-6 w-[95%] md:w-[85%] mx-auto">
+      <div class="text-center">
+        <h2 class="text-4xl font-bold text-[#1C4798] mb-4">Support</h2>
+        <p class="text-gray-500">Find Answer To Your Questions</p>
+      </div>
+
+      <div
+        class="bg-gray-100 p-6 mt-6 rounded-2xl border border-gray-300 text-center flex justify-center items-center gap-3"
+      >
+        <div class="w-full md:w-[45%] overflow-hidden rounded-md">
+          <img
+            src="./images/faq.png"
+            alt="FAQ"
+            class="w-full h-full object-cover mb-4"
+          />
+        </div>
+        <div class="w-full md:w-[45%] overflow-hidden rounded-md">
+          <h3 class="text-lg font-bold">Hi. How We Can Help You?</h3>
+          <div class="mt-4">
+            <input
+              type="text"
+              placeholder="Search Questions, Keywords, Topics"
+              class="w-full p-3 border rounded-lg"
+            />
+          </div>
+          <p class="mt-2 text-gray-700">
+            You can
+            <a href="#" class="text-orange-400 font-bold">contact us</a> for
+            help.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-10">
+        <h3 class="text-4xl font-semibold">Frequently Asked Questions</h3>
+        <div class="mt-4 space-y-2 border border-gray-700 rounded-2xl">
+          <div class="faq-item border-b border-gray-300 p-4">
+            <div
+              class="faq-header  flex justify-between items-center cursor-pointer"
+            >
+              <h2 class="font-semibold text-lg ">Lorem Ipsum Is Simply Dummy Text?</h2>
+              <i class="fa-solid fa-chevron-down icon"></i>
+            </div>
+            <p class="faq-content mt-2 text-gray-500 hidden text-lg pt-2 ">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s industry...
+            </p>
+          </div>
+          <div class="faq-item border-b border-gray-300 p-4">
+            <div
+              class="faq-header  flex justify-between items-center cursor-pointer"
+            >
+              <h2 class="font-semibold text-lg ">Lorem Ipsum Is Simply Dummy Text?</h2>
+              <i class="fa-solid fa-chevron-down icon"></i>
+            </div>
+            <p class="faq-content mt-2 text-gray-500 hidden text-lg pt-2 ">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s industry...
+            </p>
+          </div>
+          <div class="faq-item border-b border-gray-300 p-4">
+            <div
+              class="faq-header  flex justify-between items-center cursor-pointer"
+            >
+              <h2 class="font-semibold text-lg ">Lorem Ipsum Is Simply Dummy Text?</h2>
+              <i class="fa-solid fa-chevron-down icon"></i>
+            </div>
+            <p class="faq-content mt-2 text-gray-500 hidden text-lg pt-2 ">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s industry...
+            </p>
+          </div>
+          <div class="faq-item border-b border-gray-300 p-4">
+            <div
+              class="faq-header  flex justify-between items-center cursor-pointer"
+            >
+              <h2 class="font-semibold text-lg ">Lorem Ipsum Is Simply Dummy Text?</h2>
+              <i class="fa-solid fa-chevron-down icon"></i>
+            </div>
+            <p class="faq-content mt-2 text-gray-500 hidden text-lg pt-2 ">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s industry...
+            </p>
+          </div>
+          <div class="faq-item border-b border-gray-300 p-4">
+            <div
+              class="faq-header  flex justify-between items-center cursor-pointer"
+            >
+              <h2 class="font-semibold text-lg ">Lorem Ipsum Is Simply Dummy Text?</h2>
+              <i class="fa-solid fa-chevron-down icon"></i>
+            </div>
+            <p class="faq-content mt-2 text-gray-500 hidden text-lg pt-2 ">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s industry...
+            </p>
+          </div>
+          <div class="faq-item border-b border-gray-300 p-4">
+            <div
+              class="faq-header  flex justify-between items-center cursor-pointer"
+            >
+              <h2 class="font-semibold text-lg ">Lorem Ipsum Is Simply Dummy Text?</h2>
+              <i class="fa-solid fa-chevron-down icon"></i>
+            </div>
+            <p class="faq-content mt-2 text-gray-500 hidden text-lg pt-2 ">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s industry...
+            </p>
+          </div>
+          <div class="faq-item border-b border-gray-300 p-4">
+            <div
+              class="faq-header  flex justify-between items-center cursor-pointer"
+            >
+              <h2 class="font-semibold text-lg ">Lorem Ipsum Is Simply Dummy Text?</h2>
+              <i class="fa-solid fa-chevron-down icon"></i>
+            </div>
+            <p class="faq-content mt-2 text-gray-500 hidden text-lg pt-2 ">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s industry...
+            </p>
+          </div>
+          <div class="faq-item border-b border-gray-300 p-4">
+            <div
+              class="faq-header  flex justify-between items-center cursor-pointer"
+            >
+              <h2 class="font-semibold text-lg ">Lorem Ipsum Is Simply Dummy Text?</h2>
+              <i class="fa-solid fa-chevron-down icon"></i>
+            </div>
+            <p class="faq-content mt-2 text-gray-500 hidden text-lg pt-2 ">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s industry...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-blue-800 text-white py-6">
+      <div
+        class="w-[85%] mx-auto flex flex-wrap justify-between items-center px-6"
+      >
+         
+        <div class="flex flex-col items-center">
+          <img src="./images/logowhite.png" alt="Logo" class="w-32 mb-4" />
+          <div class="flex space-x-4">
+            <a href="#" class="text-white text-xl"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="#" class="text-white text-xl"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="text-white text-xl"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" class="text-white text-xl"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+         
+        <div class="grid grid-cols-2 gap-12">
+          <div class="space-y-3">
+            <p><a href="#" class="text-sm">About Us</a></p>
+            <p><a href="#" class="text-sm">Contact Us</a></p>
+            <p><a href="#" class="text-sm">Support</a></p>
+            <p>
+              <a href="#" class="text-sm"
+                >Learning Management <br />
+                System</a
+              >
+            </p>
+            <p><a href="#" class="text-sm">Academic Guidance</a></p>
+          </div>
+          <div class="space-y-3">
+            <p><a href="#" class="text-sm">Cookie Policy</a></p>
+            <p><a href="#" class="text-sm">Privacy Policy</a></p>
+            <p><a href="#" class="text-sm">Terms Of Service</a></p>
+          </div>
+        </div>
+
+         
+        <div class="flex flex-col justify-start items-start gap-4">
+          <p class="mb-2">Download The App</p>
+          <div class="flex space-x-2">
+            <a href="#"
+              ><img
+                src="./images/android.png"
+                alt="Google Play"
+                class="w-32 h-10"
+            /></a>
+            <a href="#"
+              ><img src="./images/apple.png" alt="App Store" class="w-32 h-10"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const faqItems = document.querySelectorAll(".faq-item");
+
+        faqItems.forEach((item) => {
+          const header = item.querySelector(".faq-header ");
+          const content = item.querySelector(".faq-content");
+          const icon = item.querySelector(".icon");
+
+          header.addEventListener("click", function () {
+            const isOpen = !content.classList.contains("hidden");
+
+            faqItems.forEach((i) => {
+              i.querySelector(".faq-content").classList.add("hidden");
+              i.querySelector(".icon").classList.replace("fa-chevron-up", "fa-chevron-down");
+            });
+
+            if (!isOpen) {
+              content.classList.remove("hidden");
+              icon.classList.replace("fa-chevron-down", "fa-chevron-up");
+            }
+          });
+        });
+      });
+    </script>
+
+<script src="./app.js"></script>
+
+  </body>
+</html>

@@ -3,7 +3,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  /* font-family: "Noto Kufi Arabic", serif; */
 
 }
 
@@ -11,15 +10,15 @@ body:lang(ar) {
   font-family: "Noto Kufi Arabic", serif;
 }
 
-.kufi{
+.kufi {
   font-family: 'Noto Kufi Arabic';
 }
 
 
-.heading{
-  @apply text-black text-4xl font-bold w-full text-center my-8 ;
+.heading {
+  @apply text-black text-4xl font-bold w-full text-center my-8;
 }
-.heading span{
-  @apply text-[#1C4798] text-4xl font-bold ;
-  ;
+
+.heading span {
+  @apply text-[#1C4798] text-4xl font-bold;
 }
